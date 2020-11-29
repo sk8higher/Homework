@@ -44,7 +44,7 @@ public class CheckProductsTest {
         List<WebElement> prodPrice = driver.findElements(By.xpath("//div[@class='inventory_item_price']"));
 
         for (int i = 0; i < products.size(); i++) {
-            log.warn("Product Name: " + prodNames.get(i).getText() +     //warm logging for checking in console
+            log.warn("Product Name: " + prodNames.get(i).getText() +     //warn logging for checking in console
                      "\nProduct Price: " + prodPrice.get(i).getText());
         }
 
