@@ -1,0 +1,7 @@
+By.id("user-name") #username
+By.id("password") #password
+By.id("login-button") #login button
+
+By.xpath("//div[@class='inventory_item']") #products
+By.xpath("//div[@class='inventory_item_name']") #product names
+By.xpath("//div[@class='inventory_item_price']") #product prices
